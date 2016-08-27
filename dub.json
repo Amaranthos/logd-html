@@ -1,0 +1,10 @@
+{
+	"name": "logd-html",
+	"authors": [
+		"Patrick Monaghan"
+		"Joshua Hodkinson"
+	],
+	"description": "A lightweight D logger that writes to a html for formatted output ",
+	"copyright": "Copyright © 2016, Joshua Hodkinson",
+	"license": "MIT"
+}

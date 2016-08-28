@@ -7,10 +7,42 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "source/tests.d",
+			"settings":
+			{
+				"buffer_size": 124,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 1257,
+				"line_ending": "Unix"
+			}
+		}
 	],
-	"build_system": "",
+	"build_system": "DUB build debug",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"DUB build debug",
+					""
+				],
+				[
+					"DUB build debug",
+					"Run"
+				]
+			],
+			[
+				"DUB build debug",
+				""
+			]
+		]
 	],
 	"build_varint": "",
 	"command_palette":
@@ -66,12 +98,13 @@
 	"expanded_folders":
 	[
 		"/E/logd-html",
-		"/E/logd-html/source"
+		"/E/logd-html/source",
+		"/E/logd-html/source/logd"
 	],
 	"file_history":
 	[
-		"/E/logd-html/.gitignore",
 		"/E/logd-html/source/log.d",
+		"/E/logd-html/.gitignore",
 		"/E/logd-html/source/tests.d",
 		"/E/logd-html/dub.json",
 		"/E/logd-html/README.md",
@@ -119,8 +152,66 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "source/tests.d",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 124,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								124,
+								124
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/D/D.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1257,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								579,
+								579
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -130,7 +221,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 38.0
 	},
 	"layout":
 	{
@@ -155,6 +246,10 @@
 		]
 	},
 	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 132.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0

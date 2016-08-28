@@ -1,4 +1,4 @@
-import logd;
+import logd.log;
 
 unittest {
 	EnableLogging(true);

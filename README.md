@@ -15,7 +15,7 @@ dub fetch logd-html
 General usage
 
 ```D
-import logd-html;
+import logd;
 
 void main() {
 	EnableLogging(true);

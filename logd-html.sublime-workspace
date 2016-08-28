@@ -7,14 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "dub.json",
-			"settings":
-			{
-				"buffer_size": 220,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -23,10 +15,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 375.0,
-		"last_filter": "sett",
+		"height": 335.0,
+		"last_filter": "mark",
 		"selected_items":
 		[
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
 			[
 				"sett",
 				"Preferences: Settings - User"
@@ -48,7 +44,7 @@
 				"Preferences: Settings - User"
 			]
 		],
-		"width": 418.0
+		"width": 386.0
 	},
 	"console":
 	{
@@ -69,10 +65,18 @@
 	},
 	"expanded_folders":
 	[
-		"/E/logd-html"
+		"/E/logd-html",
+		"/E/logd-html/source"
 	],
 	"file_history":
 	[
+		"/E/logd-html/.gitignore",
+		"/E/logd-html/source/log.d",
+		"/E/logd-html/source/tests.d",
+		"/E/logd-html/dub.json",
+		"/E/logd-html/README.md",
+		"/E/logd-html/source/app.d",
+		"/E/logd-html/.travis.yml",
 		"/E/README.md",
 		"/E/joshsDeng/.gitignore",
 		"/E/LICENSE",
@@ -115,37 +119,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "dub.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 220,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								220,
-								220
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -197,6 +172,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"rea",
+				"README.md"
+			]
 		],
 		"width": 0.0
 	},
@@ -206,6 +185,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"E:\\joshsDeng\\joshsdeng.sublime-project"
+			]
 		],
 		"width": 380.0
 	},

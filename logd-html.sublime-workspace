@@ -7,22 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "source/tests.d",
-			"settings":
-			{
-				"buffer_size": 124,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 1257,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "DUB build debug",
 	"build_system_choices":
@@ -103,11 +87,12 @@
 	],
 	"file_history":
 	[
+		"/E/logd-html/README.md",
+		"/E/logd-html/source/tests.d",
+		"/E/logd-html/source/logd/log.d",
 		"/E/logd-html/source/log.d",
 		"/E/logd-html/.gitignore",
-		"/E/logd-html/source/tests.d",
 		"/E/logd-html/dub.json",
-		"/E/logd-html/README.md",
 		"/E/logd-html/source/app.d",
 		"/E/logd-html/.travis.yml",
 		"/E/README.md",
@@ -152,66 +137,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "source/tests.d",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 124,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								124,
-								124
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/D/D.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1257,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								579,
-								579
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": -0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -267,6 +194,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"re",
+				"README.md"
+			],
 			[
 				"rea",
 				"README.md"

@@ -1,4 +1,4 @@
-module log;
+module logd;
 
 import std.stdio;
 import std.file;

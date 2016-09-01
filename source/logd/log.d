@@ -1,11 +1,12 @@
 
 module logd.log;
 
-import std.stdio;
 import std.file;
+import std.path;
+import std.stdio;
 import std.string;
-import std.datetime;
 import std.format;
+import std.datetime;
 
 static class Logd {
 	
@@ -22,7 +23,7 @@ static class Logd {
 	}
 
 	static this() {
-		log.open("log.html", "w");
+		log.open("log".setExtension("html"), "w");
 		WriteHtmlHeader();
 	}
 
@@ -32,14 +33,22 @@ static class Logd {
 		log.close();
 	}
 
-	static public void SetLogFilename(string filename) {
+	@property static public void LogFilename(string filename) {
 		log.close();
-		log.open(filename, "w");
+		log.open(filename.setExtension("html"), "w");
 		WriteHtmlHeader();
 	}
 
-	static public string GetFilename() {
-		return log.name;
+	@property static public string LogFilename() {
+		return log.name.stripExtension;
+	}
+
+	@property static public void IsLogging(bool logging) {
+		isLogging = logging;
+	}
+
+	@property static public bool IsLogging() {
+		return isLogging;
 	}
 
 	static public void Write()() {
@@ -58,14 +67,6 @@ static class Logd {
 		writeln(t);
 		if(isLogging) 
 			log.writeln("<",fmt," class=", level, ">",t,"</",fmt,">");
-	}
-
-	static public void EnableLogging(bool logging) {
-		isLogging = logging;
-	}
-
-	static public bool IsLogging() {
-		return isLogging;
 	}
 
 	static public void Flush() {

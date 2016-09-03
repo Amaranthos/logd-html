@@ -49,6 +49,10 @@ static class Logd {
 		return isLogging;
 	}
 
+	@property static public bool IsOpen() {
+		return log.isOpen;
+	}
+
 	static public void Write()() {
 		writeln();
 		if(isLogging) 

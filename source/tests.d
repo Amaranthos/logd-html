@@ -20,7 +20,6 @@ unittest {
 		}
 
 		if(exists(fileName2)) {
-			Logd.Close();
 			remove(fileName2);
 		}	
 
@@ -71,4 +70,11 @@ unittest {
 	assert(text.canFind("class=\"error\"") == false);
 	assert(text.canFind("class=\"update\"") == false);
 	assert(text.canFind("class=\"user\"") == false);
+
+	// Open Close
+	Logd.Close();
+	assert(Logd.IsOpen == false);
+	Logd.Open();
+	assert(Logd.IsOpen);
+	Logd.Close();
 }

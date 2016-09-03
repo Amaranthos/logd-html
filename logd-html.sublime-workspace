@@ -4,8 +4,44 @@
 		"selected_items":
 		[
 			[
+				"Iso",
+				"isOpen"
+			],
+			[
+				"ver",
+				"version"
+			],
+			[
+				"fil",
+				"fileName2"
+			],
+			[
+				"file",
+				"fileName1"
+			],
+			[
+				"te",
+				"text"
+			],
+			[
+				"lo",
+				"Logd"
+			],
+			[
+				"Writ",
+				"WriteHtmlHeader"
+			],
+			[
+				"st",
+				"static"
+			],
+			[
 				"re",
-				"readText"
+				"remove"
+			],
+			[
+				"fi",
+				"file1"
 			],
 			[
 				"log",
@@ -22,10 +58,6 @@
 			[
 				"wrt",
 				"writeln"
-			],
-			[
-				"fi",
-				"Filename"
 			],
 			[
 				"Log",
@@ -84,13 +116,25 @@
 			]
 		]
 	],
-	"build_varint": "Run",
+	"build_varint": "",
 	"command_palette":
 	{
-		"height": 185.0,
-		"last_filter": "",
+		"height": 375.0,
+		"last_filter": "c",
 		"selected_items":
 		[
+			[
+				"c",
+				"Project: Close"
+			],
+			[
+				"dif",
+				"Diffy Cleanup"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"buil",
 				"Build With: DUB build unittest-cov - Run"
@@ -124,7 +168,7 @@
 				"Preferences: Settings - User"
 			]
 		],
-		"width": 386.0
+		"width": 418.0
 	},
 	"console":
 	{
@@ -146,14 +190,15 @@
 	"expanded_folders":
 	[
 		"/E/logd-html",
+		"/E/logd-html/source",
 		"/E/logd-html/source/logd"
 	],
 	"file_history":
 	[
 		"/E/logd-html/source/logd/log.d",
 		"/E/logd-html/source/tests.d",
-		"/E/README.md",
 		"/E/logd-html/log.html",
+		"/E/README.md",
 		"/E/logd-html/README.md",
 		"/E/logd-html/source/log.d",
 		"/E/logd-html/.gitignore",
@@ -170,7 +215,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -184,6 +229,15 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"\\n\\n",
+			"\\n",
+			"fileName1",
+			");\n",
+			"filename2",
+			"filename1",
+			"file2",
+			"file1",
+			"logPath",
 			"Logd.Filename",
 			"Logd.Filename.readText",
 			"\"log\".setExtension(\"html\")",
@@ -222,7 +276,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -263,7 +317,7 @@
 	"project": "logd-html.sublime-project",
 	"replace":
 	{
-		"height": 68.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":

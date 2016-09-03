@@ -1,4 +1,4 @@
-# logd-html [![Build Status](https://travis-ci.org/Amaranthos/logd-html.svg?branch=master)](https://travis-ci.org/Amaranthos/logd-html) [![Coverage Status](https://coveralls.io/repos/github/Amaranthos/logd-html/badge.svg?branch=master)](https://coveralls.io/github/Amaranthos/logd-html?branch=master) <a href="https://code.dlang.org/packages/logd-html" title="Go to logd-html"><img src="https://img.shields.io/dub/v/logd-html.svg" alt="Dub version"></a>
+# logd-html [![Build Status](https://travis-ci.org/Amaranthos/logd-html.svg?branch=master)](https://travis-ci.org/Amaranthos/logd-html) [![Coverage Status](https://coveralls.io/repos/github/Amaranthos/logd-html/badge.svg?branch=master)](https://coveralls.io/github/Amaranthos/logd-html?branch=master) [![Dub version](https://img.shields.io/dub/v/logd-html.svg)](https://code.dlang.org/packages/logd-html "Go to logd-html")
 
 logd-html is a lightweight logger which writes to a html file;
 this allows formatted output and the potential for controls to review specific events, etc.

@@ -3,12 +3,52 @@
 	{
 		"selected_items":
 		[
+			[
+				"re",
+				"readText"
+			],
+			[
+				"log",
+				"logPath"
+			],
+			[
+				"is",
+				"isFile"
+			],
+			[
+				"Fi",
+				"Filename"
+			],
+			[
+				"wrt",
+				"writeln"
+			],
+			[
+				"fi",
+				"Filename"
+			],
+			[
+				"Log",
+				"Logd"
+			],
+			[
+				"Lo",
+				"LogFilename"
+			],
+			[
+				"tes",
+				"test_Log"
+			],
+			[
+				"tets",
+				"test_Log"
+			]
 		]
 	},
 	"buffers":
 	[
 	],
-	"build_system": "DUB build debug",
+	"build_system": "DUB build unittest-cov",
 	"build_system_choices":
 	[
 		[
@@ -26,15 +66,39 @@
 				"DUB build debug",
 				""
 			]
+		],
+		[
+			[
+				[
+					"DUB build unittest-cov",
+					""
+				],
+				[
+					"DUB build unittest-cov",
+					"Run"
+				]
+			],
+			[
+				"DUB build unittest-cov",
+				"Run"
+			]
 		]
 	],
-	"build_varint": "",
+	"build_varint": "Run",
 	"command_palette":
 	{
-		"height": 335.0,
-		"last_filter": "mark",
+		"height": 185.0,
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"buil",
+				"Build With: DUB build unittest-cov - Run"
+			],
+			[
+				"close",
+				"Project: Close"
+			],
 			[
 				"mark",
 				"Markdown Preview: Preview in Browser"
@@ -82,20 +146,20 @@
 	"expanded_folders":
 	[
 		"/E/logd-html",
-		"/E/logd-html/source",
 		"/E/logd-html/source/logd"
 	],
 	"file_history":
 	[
-		"/E/logd-html/README.md",
-		"/E/logd-html/source/tests.d",
 		"/E/logd-html/source/logd/log.d",
+		"/E/logd-html/source/tests.d",
+		"/E/README.md",
+		"/E/logd-html/log.html",
+		"/E/logd-html/README.md",
 		"/E/logd-html/source/log.d",
 		"/E/logd-html/.gitignore",
 		"/E/logd-html/dub.json",
 		"/E/logd-html/source/app.d",
 		"/E/logd-html/.travis.yml",
-		"/E/README.md",
 		"/E/joshsDeng/.gitignore",
 		"/E/LICENSE",
 		"/E/joshsDeng/dub.json",
@@ -117,16 +181,30 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"Logd.Filename",
+			"Logd.Filename.readText",
+			"\"log\".setExtension(\"html\")",
+			"LogFilename",
+			"read",
+			"canFind",
+			"\\h+$",
+			"test_Log",
+			"Log",
+			"Fmt",
+			"Log",
+			"Log.",
+			"Log"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -181,11 +259,11 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "DUB build debug",
+	"pinned_build_system": "DUB build unittest-cov",
 	"project": "logd-html.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 68.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -195,11 +273,11 @@
 		"selected_items":
 		[
 			[
-				"re",
+				"rea",
 				"README.md"
 			],
 			[
-				"rea",
+				"re",
 				"README.md"
 			]
 		],

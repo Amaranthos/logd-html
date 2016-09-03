@@ -28,19 +28,17 @@ static class Logd {
 	}
 
 	static ~this() {
-		WriteHtmlFooter;
-		Flush();
-		log.close();
+		Close();
 	}
 
-	@property static public void LogFilename(string filename) {
-		log.close();
+	@property static public void Filename(string filename) {
+		Close();
 		log.open(filename.setExtension("html"), "w");
 		WriteHtmlHeader();
 	}
 
-	@property static public string LogFilename() {
-		return log.name.stripExtension;
+	@property static public string Filename() {
+		return log.name;
 	}
 
 	@property static public void IsLogging(bool logging) {
@@ -60,19 +58,33 @@ static class Logd {
 	static public void Write(Level, T...)(Level level, T t) {
 		writeln(t);
 		if(isLogging) 
-			log.writeln("<p class=", level, ">", CurrentTime(),t,"</p>");
+			log.writeln("<p class=\"", level, "\">", CurrentTime(),t,"</p>");
 	}
 
 	static public void WriteWithTag(Level, string, T...)(Level level, string fmt, T t){
 		writeln(t);
 		if(isLogging) 
-			log.writeln("<",fmt," class=", level, ">",t,"</",fmt,">");
+			log.writeln("<",fmt," class=\"", level, "\">",t,"</",fmt,">");
 	}
 
 	static public void Flush() {
 		std.stdio.stdout.flush();
 		log.flush();
-	}	
+		log.sync();
+	}
+
+	static public void Close() {
+		if(log.isOpen) {
+			WriteHtmlFooter();
+			Flush();
+			log.close();
+		}
+	}
+
+	static public void Open() {
+		log.open(log.name, "w");
+		WriteHtmlHeader();
+	}
 
 	static public string CurrentTime() {
 		auto time = Clock.currTime;
